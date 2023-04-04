@@ -4,6 +4,7 @@ div.style.textAlign="center";
 var input=document.createElement("input");
 input.setAttribute("type","text");
 input.setAttribute("id","country");
+input.setAttribute("placeholder","Enter the Name");
 
 var button=document.createElement("button");
 button.setAttribute("type","button");
