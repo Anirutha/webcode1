@@ -25,7 +25,6 @@ document.body.append(div);
 async function foo(){
     try{
     let res=document.getElementById("country").value;
-    console.log(res);
     let url=`https://api.nationalize.io/?name=${res}`;
     let res1=await fetch(url);
     let res2=await res1.json();
